@@ -1,0 +1,35 @@
+theme = "snazzy"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.whitespace.render]
+tab = "all"
+
+[editor.whitespace.charaters]
+tab = "→"
+tabpad = "·"
+
+[keys.normal]
+h = "collapse_selection"
+"A-h" = "flip_selections"
+j = "move_char_left"
+k = "move_line_down"
+l = "move_line_up"
+";" = "move_char_right"
+
+[keys.select]
+h = "collapse_selection"
+"A-h" = "flip_selections"
+j = "extend_char_left"
+k = "extend_line_down"
+l = "extend_line_up"
+";" = "extend_char_right"

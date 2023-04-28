@@ -1,0 +1,5 @@
+# ignore the runtime folder
+runtime
+
+# don't include the logo
+logo.svg
