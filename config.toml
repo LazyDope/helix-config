@@ -3,6 +3,7 @@ theme = "snazzy"
 [editor]
 line-number = "relative"
 bufferline = "multiple"
+cursorline = true
 
 [editor.cursor-shape]
 insert = "bar"
