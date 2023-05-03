@@ -48,3 +48,59 @@ pageup = "no_op"
 pagedown = "no_op"
 home = "no_op"
 end = "no_op"
+
+[keys.normal.g]
+j = "goto_line_start"
+k = "move_line_down"
+l = "move_line_up"
+";" = "goto_line_end"
+
+[keys.select.g]
+j = "goto_line_start"
+k = "extend_line_down"
+l = "extend_line_up"
+";" = "goto_line_end"
+
+[keys.normal.z]
+j = "no_op"
+k = "scroll_down"
+l = "scroll_up"
+
+[keys.normal.Z]
+j = "no_op"
+k = "scroll_down"
+l = "scroll_up"
+
+[keys.select.z]
+j = "no_op"
+k = "scroll_down"
+l = "scroll_up"
+
+[keys.select.Z]
+j = "no_op"
+k = "scroll_down"
+l = "scroll_up"
+
+[keys.normal."C-w"]
+h = "no_op"
+j = "jump_view_left"
+k = "jump_view_down"
+l = "jump_view_up"
+';' = "jump_view_right"
+'C-h' = "no_op"
+'C-j' = "jump_view_left"
+'C-k' = "jump_view_down"
+'C-l' = "jump_view_up"
+'C-;' = "jump_view_right"
+
+[keys.select."C-w"]
+h = "no_op"
+j = "jump_view_left"
+k = "jump_view_down"
+l = "jump_view_up"
+';' = "jump_view_right"
+'C-h' = "no_op"
+'C-j' = "jump_view_left"
+'C-k' = "jump_view_down"
+'C-l' = "jump_view_up"
+'C-;' = "jump_view_right"
