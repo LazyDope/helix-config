@@ -28,6 +28,8 @@ k = "move_line_down"
 l = "move_line_up"
 ";" = "move_char_right"
 "A-;" = "move_next_word_end"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
 [keys.select]
 h = "collapse_selection"
@@ -38,6 +40,8 @@ l = "extend_line_up"
 ";" = "extend_char_right"
 "A-;" = "extend_next_word_end"
 A-j = "extend_prev_word_start"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
 [keys.insert]
 up = "no_op"
@@ -67,11 +71,15 @@ l = "extend_line_up"
 j = "no_op"
 k = "scroll_down"
 l = "scroll_up"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
 [keys.normal.Z]
 j = "no_op"
 k = "scroll_down"
 l = "scroll_up"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
 [keys.select.z]
 j = "no_op"
