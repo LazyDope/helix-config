@@ -20,9 +20,9 @@ tab = "all"
 tab = "→"
 tabpad = "·"
 
+[keys.normal]
 # 1. use colemak layout and shift right to home row
 # using `l` for newline, `y` for insert, and `j` for yank.
-[keys.normal]
 h = "collapse_selection"
 "A-h" = "flip_selections"
 n = "move_char_left"
@@ -31,8 +31,6 @@ e = "move_line_down"
 i = "move_line_up"
 o = "move_char_right"
 "A-o" = "move_next_word_end"
-"C-b" = "no_op"
-"C-v" = "page_up"
 y = "insert_mode"
 Y = "insert_at_line_start"
 l = "open_below"
@@ -41,7 +39,11 @@ j = "yank"
 J = "no_op"
 k = "no_op"
 
-# see 1.
+# 2. switch C-b to C-v for tmux
+"C-b" = "no_op"
+"C-v" = "page_up"
+
+# see 1. and 2.
 [keys.select]
 h = "collapse_selection"
 "A-h" = "flip_selections"
@@ -74,53 +76,61 @@ end = "no_op"
 
 # see 1.
 [keys.normal.g]
-h = "no_op"
-j = "no_op"
-k = "no_op"
-l = "no_op"
 n = "goto_line_start"
 e = "move_line_down"
 i = "move_line_up"
 o = "goto_line_end"
+h = "no_op"
+j = "no_op"
+k = "no_op"
+l = "no_op"
 
 # see 1.
 [keys.select.g]
-h = "no_op"
-j = "no_op"
-k = "no_op"
-l = "no_op"
 n = "goto_line_start"
 e = "move_line_down"
 i = "move_line_up"
 o = "goto_line_end"
+h = "no_op"
+j = "no_op"
+k = "no_op"
+l = "no_op"
 
-# see 1.
+# see 1. and 2.
 [keys.normal.z]
 e = "scroll_down"
 i = "scroll_up"
 j = "no_op"
 k = "no_op"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
-# see 1.
+# see 1. and 2.
 [keys.normal.Z]
 e = "scroll_down"
 i = "scroll_up"
 j = "no_op"
 k = "no_op"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
-# see 1.
+# see 1. and 2.
 [keys.select.z]
 e = "scroll_down"
 i = "scroll_up"
 j = "no_op"
 k = "no_op"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
-# see 1.
+# see 1. and 2.
 [keys.select.Z]
 e = "scroll_down"
 i = "scroll_up"
 j = "no_op"
 k = "no_op"
+"C-b" = "no_op"
+"C-v" = "page_up"
 
 # see 1.
 [keys.normal.space]
