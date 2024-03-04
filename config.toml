@@ -37,7 +37,8 @@ l = "open_below"
 L = "open_above"
 j = "yank"
 J = "no_op"
-k = "no_op"
+k = "search_next"
+K = "search_prev"
 
 # 2. switch C-b to C-v for tmux
 "C-b" = "no_op"
@@ -61,7 +62,8 @@ l = "open_below"
 L = "open_above"
 j = "yank"
 J = "no_op"
-k = "no_op"
+k = "search_next"
+K = "search_prev"
 
 # no newbie keys
 [keys.insert]
